@@ -12,5 +12,10 @@ From the assignment page:
 mariaK -- 17:02
        - Gained access to a mac
 
+================2017-10-12================
 
+jasonM -- 17:52
+       - Set up basic flask application
+       - Set up repo structure
+       - Began researching Jinga / Flask interface
 
