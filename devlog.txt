@@ -18,4 +18,6 @@ jasonM -- 17:52
        - Set up basic flask application
        - Set up repo structure
        - Began researching Jinga / Flask interface
-
+raymondL -- 18:07
+       - Set up initial google map
+       - Begin converting data into GeoJSON format to use with google maps API
