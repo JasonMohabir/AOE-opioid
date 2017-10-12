@@ -1,4 +1,16 @@
 Team Aggressive Machinists: Maria Kogan, Jason Mohabir, Raymond Li
+Project: Work in Progress
 
-October 8, 2017 Maria gained access to a mac
+From the assignment page:
+     - Separate devlog entries with newlines
+     - Most recent entry at the bottom
+     - Each entry should begin with the following format: firstL -- TIMESTAMP\n
+     - e.g.: topherM -- 1999-12-31 23:59
+
+================2017-10-9================
+
+mariaK -- 17:02
+       - Gained access to a mac
+
+
 
