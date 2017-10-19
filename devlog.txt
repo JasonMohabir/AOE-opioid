@@ -21,3 +21,9 @@ jasonM -- 17:52
 raymondL -- 18:07
        - Set up initial google map
        - Begin converting data into GeoJSON format to use with google maps API
+      
+================2017-10-19================
+mariaK -- 16:57
+       - set up the basic website using bootstrap
+       
+       
