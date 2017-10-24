@@ -21,6 +21,7 @@
       container: 'map', // container id
       style: 'mapbox://styles/ray725/cj94zg6wn0ghu2rl5bwnlin5e' // replace this with your style URL
     });
+
     map.on('load', function() {
       var layers = ['5-10', '10-15', '15-20', '20-30', '30-40', '40-50', '50+'];
       var colors = ['#FFEDA0', '#FED976', '#FEB24C', '#FD8D3C', '#FC4E2A', '#E31A1C', '#BD0026'];
@@ -43,6 +44,17 @@
           legend.appendChild(item);
         }
       }
+
+      map.addLayer({
+        "id": "state-borders",
+        "type": "line",
+        "source": "us-states-5um1vw",
+        "layout": {},
+        "paint": {
+          "line-color": "#627BC1",
+          "line-width": 5
+        }
+      });
     });
 
     map.on('mousemove', function(e) {
@@ -59,7 +71,10 @@
 
     map.getCanvas().style.cursor = 'default';
 
-    map.fitBounds([[-133.2421875, 16.972741], [-47.63671875, 52.696361]]);
+    map.fitBounds([
+      [-133.2421875, 16.972741],
+      [-47.63671875, 52.696361]
+    ]);
   </script>
 </body>
 
