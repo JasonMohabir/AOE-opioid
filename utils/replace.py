@@ -21,9 +21,9 @@ for n in range(50):
     num_2014 = df2.loc[state,"2014Number"]
     num_2013 = df2.loc[state,"2013Number"]
 
-    data["features"][n]["properties"]['2015death'] = num_2015
-    data["features"][n]["properties"]['2014death'] = num_2014
-    data["features"][n]["properties"]['2013death'] = num_2013
+    data["features"][n]["properties"]['2015death'] = int(num_2015.replace(',',''))
+    data["features"][n]["properties"]['2014death'] = int(num_2014.replace(',',''))
+    data["features"][n]["properties"]['2013death'] = int(num_2013.replace(',',''))
 
 with open('us-states-update.geojson', 'w') as outfile:
     json.dump(data, outfile)
