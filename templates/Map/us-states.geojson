@@ -5,7 +5,7 @@
       "id": "01",
       "properties": {
         "name": "Alabama",
-        "deaths": 15.7
+        "deaths": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -53,7 +53,7 @@
       "id": "02",
       "properties": {
         "name": "Alaska",
-        "deaths": 16
+        "deaths": 0
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1296,7 +1296,7 @@
       "id": "04",
       "properties": {
         "name": "Arizona",
-        "deaths": 19
+        "deaths": 4.7
       },
       "geometry": {
         "type": "Polygon",
@@ -1343,7 +1343,7 @@
       "id": "05",
       "properties": {
         "name": "Arkansas",
-        "deaths": 13.8
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -1395,7 +1395,7 @@
       "id": "06",
       "properties": {
         "name": "California",
-        "deaths": 11.3
+        "deaths": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -1503,7 +1503,7 @@
       "id": "08",
       "properties": {
         "name": "Colorado",
-        "deaths": 15.4
+        "deaths": 1.7
       },
       "geometry": {
         "type": "Polygon",
@@ -1534,7 +1534,7 @@
       "id": "09",
       "properties": {
         "name": "Connecticut",
-        "deaths": 22.1
+        "deaths": 2.437
       },
       "geometry": {
         "type": "Polygon",
@@ -1565,7 +1565,7 @@
       "id": "10",
       "properties": {
         "name": "Delaware",
-        "deaths": 22
+        "deaths": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -1593,7 +1593,7 @@
       "id": "11",
       "properties": {
         "name": "District of Columbia",
-        "deaths": 18.6
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -1613,7 +1613,7 @@
       "id": "12",
       "properties": {
         "name": "Florida",
-        "deaths": 16.2
+        "deaths": 5.8
       },
       "geometry": {
         "type": "Polygon",
@@ -1706,7 +1706,7 @@
       "id": "13",
       "properties": {
         "name": "Georgia",
-        "deaths": 12.7
+        "deaths": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -1772,7 +1772,7 @@
       "id": "15",
       "properties": {
         "name": "Hawaii",
-        "deaths": 11.3
+        "deaths": 0.88
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1854,7 +1854,7 @@
       "id": "16",
       "properties": {
         "name": "Idaho",
-        "deaths": 14.2
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -1935,7 +1935,7 @@
       "id": "17",
       "properties": {
         "name": "Illinois",
-        "deaths": 14.1
+        "deaths": 2.88
       },
       "geometry": {
         "type": "Polygon",
@@ -2017,7 +2017,7 @@
       "id": "18",
       "properties": {
         "name": "Indiana",
-        "deaths": 19.5
+        "deaths": 2.937
       },
       "geometry": {
         "type": "Polygon",
@@ -2078,7 +2078,7 @@
       "id": "19",
       "properties": {
         "name": "Iowa",
-        "deaths": 10.3
+        "deaths": 1.05
       },
       "geometry": {
         "type": "Polygon",
@@ -2143,7 +2143,7 @@
       "id": "20",
       "properties": {
         "name": "Kansas",
-        "deaths": 11.8
+        "deaths": 0.94
       },
       "geometry": {
         "type": "Polygon",
@@ -2171,7 +2171,7 @@
       "id": "21",
       "properties": {
         "name": "Kentucky",
-        "deaths": 29.9
+        "deaths": 1.7
       },
       "geometry": {
         "type": "Polygon",
@@ -2261,7 +2261,7 @@
       "id": "22",
       "properties": {
         "name": "Louisiana",
-        "deaths": 19
+        "deaths": 2.375
       },
       "geometry": {
         "type": "Polygon",
@@ -2352,7 +2352,7 @@
       "id": "23",
       "properties": {
         "name": "Maine",
-        "deaths": 21.2
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -2433,7 +2433,7 @@
       "id": "24",
       "properties": {
         "name": "Maryland",
-        "deaths": 20.9
+        "deaths": 2.235
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2518,7 +2518,7 @@
       "id": "25",
       "properties": {
         "name": "Massachusetts",
-        "deaths": 25.7
+        "deaths": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -2568,7 +2568,7 @@
       "id": "26",
       "properties": {
         "name": "Michigan",
-        "deaths": 20.4
+        "deaths": 16
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2749,7 +2749,7 @@
       "id": "27",
       "properties": {
         "name": "Minnesota",
-        "deaths": 10.6
+        "deaths": 2.058
       },
       "geometry": {
         "type": "Polygon",
@@ -2847,7 +2847,7 @@
       "id": "28",
       "properties": {
         "name": "Mississippi",
-        "deaths": 12.3
+        "deaths": 0.647
       },
       "geometry": {
         "type": "Polygon",
@@ -2908,7 +2908,7 @@
       "id": "29",
       "properties": {
         "name": "Missouri",
-        "deaths": 17.9
+        "deaths": 1.824
       },
       "geometry": {
         "type": "Polygon",
@@ -2976,7 +2976,7 @@
       "id": "30",
       "properties": {
         "name": "Montana",
-        "deaths": 13.8
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -3043,7 +3043,7 @@
       "id": "31",
       "properties": {
         "name": "Nebraska",
-        "deaths": 6.9
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -3087,7 +3087,7 @@
       "id": "32",
       "properties": {
         "name": "Nevada",
-        "deaths": 20.4
+        "deaths": 1.058
       },
       "geometry": {
         "type": "Polygon",
@@ -3123,7 +3123,7 @@
       "id": "33",
       "properties": {
         "name": "New Hampshire",
-        "deaths": 34.3
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -3166,7 +3166,7 @@
       "id": "34",
       "properties": {
         "name": "New Jersey",
-        "deaths": 16.3
+        "deaths": 4.777
       },
       "geometry": {
         "type": "Polygon",
@@ -3213,7 +3213,7 @@
       "id": "35",
       "properties": {
         "name": "New Mexico",
-        "deaths": 25.3
+        "deaths": 1.176
       },
       "geometry": {
         "type": "Polygon",
@@ -3245,7 +3245,7 @@
       "id": "36",
       "properties": {
         "name": "New York",
-        "deaths": 13.6
+        "deaths": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -3328,7 +3328,7 @@
       "id": "37",
       "properties": {
         "name": "North Carolina",
-        "deaths": 15.8
+        "deaths": 1.529
       },
       "geometry": {
         "type": "Polygon",
@@ -3404,7 +3404,7 @@
       "id": "38",
       "properties": {
         "name": "North Dakota",
-        "deaths": 8.6
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -3435,7 +3435,7 @@
       "id": "39",
       "properties": {
         "name": "Ohio",
-        "deaths": 29.9
+        "deaths": 18
       },
       "geometry": {
         "type": "Polygon",
@@ -3497,7 +3497,7 @@
       "id": "40",
       "properties": {
         "name": "Oklahoma",
-        "deaths": 19
+        "deaths": 0.7
       },
       "geometry": {
         "type": "Polygon",
@@ -3557,7 +3557,7 @@
       "id": "41",
       "properties": {
         "name": "Oregon",
-        "deaths": 12
+        "deaths": 14
       },
       "geometry": {
         "type": "Polygon",
@@ -3628,7 +3628,7 @@
       "id": "42",
       "properties": {
         "name": "Pennsylvania",
-        "deaths": 26.3
+        "deaths": 5.25
       },
       "geometry": {
         "type": "Polygon",
@@ -3676,7 +3676,7 @@
       "id": "44",
       "properties": {
         "name": "Rhode Island",
-        "deaths": 28.2
+        "deaths": 0.7
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3712,7 +3712,7 @@
       "id": "45",
       "properties": {
         "name": "South Carolina",
-        "deaths": 15.7
+        "deaths": 1.117
       },
       "geometry": {
         "type": "Polygon",
@@ -3771,7 +3771,7 @@
       "id": "46",
       "properties": {
         "name": "South Dakota",
-        "deaths": 8.4
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -3815,7 +3815,7 @@
       "id": "47",
       "properties": {
         "name": "Tennessee",
-        "deaths": 22.2
+        "deaths": 1.625
       },
       "geometry": {
         "type": "Polygon",
@@ -3873,7 +3873,7 @@
       "id": "48",
       "properties": {
         "name": "Texas",
-        "deaths": 9.4
+        "deaths": 4.714
       },
       "geometry": {
         "type": "Polygon",
@@ -4040,7 +4040,7 @@
       "id": "49",
       "properties": {
         "name": "Utah",
-        "deaths": 23.4
+        "deaths": 1.8
       },
       "geometry": {
         "type": "Polygon",
@@ -4067,7 +4067,7 @@
       "id": "50",
       "properties": {
         "name": "Vermont",
-        "deaths": 16.7
+        "deaths": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -4110,7 +4110,7 @@
       "id": "51",
       "properties": {
         "name": "Virginia",
-        "deaths": 12.4
+        "deaths": 2.6
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4215,7 +4215,7 @@
       "id": "53",
       "properties": {
         "name": "Washington",
-        "deaths": 14.7
+        "deaths": 11
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4312,7 +4312,7 @@
       "id": "54",
       "properties": {
         "name": "West Virginia",
-        "deaths": 41.5
+        "deaths": 0.64
       },
       "geometry": {
         "type": "Polygon",
@@ -4392,7 +4392,7 @@
       "id": "55",
       "properties": {
         "name": "Wisconsin",
-        "deaths": 15.5
+        "deaths": 2.116
       },
       "geometry": {
         "type": "Polygon",

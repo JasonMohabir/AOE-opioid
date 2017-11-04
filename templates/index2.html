@@ -147,7 +147,7 @@ had some ideas: which graph for what, also opioid used directly related to death
     <div>
       <div id='map'></div>
       <div class='map-overlay' id='features'>
-        <h2>Deaths From Opioid Overdose in 2015</h2>
+        <h2>Deaths From Opioid Overdose in 2014</h2>
         <div id='pd'>
           <p>Hover over a state.</p>
         </div>
@@ -187,7 +187,7 @@ had some ideas: which graph for what, also opioid used directly related to death
           map.addLayer({
             "id": "state-borders",
             "type": "line",
-            "source": "us-states-5um1vw",
+            "source": "us-states-doi7hq",
             "layout": {},
             "paint": {
               "line-color": "#627BC1",
@@ -207,7 +207,7 @@ had some ideas: which graph for what, also opioid used directly related to death
 
         map.on('mousemove', function(e) {
           var states = map.queryRenderedFeatures(e.point, {
-            layers: ['us-states-5um1vw']
+            layers: ['us-states-doi7hq']
           });
 
           if (states.length > 0) {

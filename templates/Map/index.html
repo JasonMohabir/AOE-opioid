@@ -17,7 +17,7 @@
     </div>
     <div class='map-overlay' id='legend'></div>
     <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoicmF5NzI1IiwiYSI6ImNqOTNtMGdpOTN3ZG4yd21iaHF1NGpncHQifQ.Wt1TCgYrOhIsL12o4BrozQ';
+      mapboxgl.accessToken = 'pk.eyJ1IjoicmF5NzI1IiwiYSI6ImNqOTNpeXNjYTNzemgycW1iMTVobjg1ZWoifQ._Zd7XVxCKKSBKwZt9Z2mVw';
       var map = new mapboxgl.Map({
         container: 'map', // container id
         style: 'mapbox://styles/ray725/cj94zg6wn0ghu2rl5bwnlin5e' // replace this with your style URL
@@ -49,7 +49,7 @@
         map.addLayer({
           "id": "state-borders",
           "type": "line",
-          "source": "us-states-5um1vw",
+          "source": "us-states-doi7hq",
           "layout": {},
           "paint": {
             "line-color": "#627BC1",
@@ -69,7 +69,7 @@
 
       map.on('mousemove', function(e) {
         var states = map.queryRenderedFeatures(e.point, {
-          layers: ['us-states-5um1vw']
+          layers: ['us-states-doi7hq']
         });
 
         if (states.length > 0) {
