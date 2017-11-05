@@ -30,4 +30,8 @@ mariaK -- 16:57
 ================2017-11-02================
 jasonM -- 17:24
        - Updated GeoJSON
-       
+================2017-11-05================
+mariaK -- 17:44
+       - updated graphs to view to opioid specific data
+       - improved race multi-bar graph by adding the average increases over time
+       - uploaded the analysis section of the webpage
