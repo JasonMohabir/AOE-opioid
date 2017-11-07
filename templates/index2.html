@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<!-- saved from url=(0065)https://blackrockdigital.github.io/startbootstrap-simple-sidebar/
-had some ideas: which graph for what, also opioid used directly related to death?-->
-<html lang="en">
+{% extends "masterTemplate.html" %}
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>20/20 Opioid</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="./Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="./Simple Sidebar - Start Bootstrap Template_files/simple-sidebar.css" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-    h2,
-    h3 {
-      margin: 10px;
-      font-size: 1.2em;
-    }
-    h3 {
-      font-size: 1em;
-    }
-    p {
-      font-size: 0.85em;
-      margin: 10px;
-      text-align: left;
-    }
+{% block style %}
     /**
   * Create a position for the map
   * on the page */
@@ -46,15 +11,15 @@ had some ideas: which graph for what, also opioid used directly related to death
       width: 100%;
     }
     /**
-  * Set rules for how the map overlays
-  * (info box and legend) will be displayed
-  * on the page. */
-    .map-overlay {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      background: rgba(255, 255, 255, 0.8);
-      margin-right: 20px;
+* Set rules for how the map overlays
+* (info box and legend) will be displayed
+* on the page. */
+.map-overlay {
+position: absolute;
+bottom: 0;
+right: 0;
+background: rgba(255, 255, 255, 0.8);
+margin-right: 20px;
       font-family: Arial, sans-serif;
       overflow: auto;
       border-radius: 3px;
@@ -86,56 +51,12 @@ had some ideas: which graph for what, also opioid used directly related to death
       font-weight: bold;
       padding-top: 5px;
     }
-  </style>
 
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
-</head>
+    {% endblock %}
 
-<body>
 
-  <div id="wrapper" class="toggled">
-
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a style="font-size: 25px;">20/20 Opioid</a>
-        </li>
-        <li>
-          <a href="index2.html">Map</a>
-        </li>
-        <li>
-          <a href="new.html">Ethnicity</a>
-        </li>
-        <li>
-          <a href="age2.html">Age Group</a>
-        </li>
-        <li>
-          <a href="gender.html">Gender</a>
-        </li>
-        <li>
-          <a href="population density.html">Population Density</a>
-        </li>
-
-        <li>
-          <a href="analysis.html">Analysis</a>
-        </li>
-      </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-      <div class="container-fluid">
-        <h1>20/20 Opioid</h1>
-        <p>Tracking the Opioid Crisis</p>
-
-        <a href="https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_04.pdf" class="btn btn-secondary" id="menu-toggle">Hide Menu</a>
-      </div>
-      <br>
-    </div>
-    <div>
+{% block page_content %}
+   <div>
       <div id='map'></div>
       <div class='map-overlay' id='features'>
         <h2>Deaths From Opioid Overdose in 2014</h2>
@@ -207,27 +128,5 @@ had some ideas: which graph for what, also opioid used directly related to death
         ]);
       </script>
     </div>
-    <!-- /#page-content-wrapper -->
 
-  </div>
-  <!-- /#wrapper -->
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="./Simple Sidebar - Start Bootstrap Template_files/jquery.min.js.download"></script>
-  <script src="./Simple Sidebar - Start Bootstrap Template_files/popper.min.js.download"></script>
-  <script src="./Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.js.download"></script>
-
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
-
-
-
-</body>
-
-</html>
+{% endblock %}
