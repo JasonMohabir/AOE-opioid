@@ -1,0 +1,32 @@
+{% extends "bootstrapMaster.html" %}
+
+{% block graph_script %}
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+         ['Gender/Race', 'Deaths'],	
+['Female American Indian or Alaska Native',     26],	
+['Female Asian or Pacific Islander', 5],	
+['Female White',  949],	
+['Female Black or African American', 176],	
+['Male Black or African American', 424],	
+['Male American Indian or Alaska Native', 27],	
+['Male Asian or Pacific Islander', 26],	
+['Male White', 2574]	
+        ]);
+
+        var options = {
+          title: 'Mortality by Gender and Race',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+{% endblock %}                
+              
+{% block page_content %}
+  <div id="piechart_3d" style="width: 900px; height: 400px;"></div>
+{% endblock %}
+
