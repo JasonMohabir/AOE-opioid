@@ -45,6 +45,17 @@
          }
          {% block style %}
          {% endblock %}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: right;
+}
+
       </style>
       {% block head %}
       {% endblock %}
@@ -96,31 +107,6 @@
 
          <!-- /#page-content-wrapper -->
 
-      <footer class="footer">
-         <div class="container-fluid">
-            <nav class="pull-left">
-               <ul>
-                  <li>
-                     <a href="/">
-                     20/20 Opioid
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://engineering.columbia.edu/">
-                     Columbia Engineering: Art of Engineering
-                     </a>
-                  </li>
-               </ul>
-            </nav>
-            <div class="copyright pull-right">
-               &copy; <script>document.write(new Date().getFullYear())</script>,
-               made with <i class="fa fa-heart heart"></i> by 
-               <a href="https://github.com/mk4036">Maria Kogan</a>,
-               <a href="https://github.com/Ray725">Raymond Li</a>, and
-               <a href="https://github.com/JasonMohabir">Jason Mohabir</a>
-            </div>
-         </div>
-      </footer>
 
       <!-- /#wrapper -->
       <!-- Bootstrap core JavaScript -->
@@ -143,4 +129,23 @@
       {% block script %}
       {% endblock %}
    </body>
+<div class="footer"> 
+
+ <a href="/">
+                     20/20 Opioid 
+                     </a> |
+                     <a href="http://engineering.columbia.edu/">
+                     Columbia Engineering: Art of Engineering
+                     </a>
+
+| &copy; <script>document.write(new Date().getFullYear())</script>,
+  made with <i class="fa fa-heart heart"></i> by
+  <a href="https://github.com/mk4036">Maria Kogan</a>,
+  <a href="https://github.com/Ray725">Raymond Li</a>, and
+  <a href="https://github.com/JasonMohabir">Jason Mohabir        </a>
+</div>
+
+
+</div>
+
 </html>
