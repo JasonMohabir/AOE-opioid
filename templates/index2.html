@@ -1,5 +1,10 @@
 {% extends "masterTemplate.html" %}
 
+{% block head %}
+      <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+{% endblock %}
+
 {% block style %}
     /**
   * Create a position for the map
@@ -56,6 +61,7 @@ margin-right: 20px;
 
 
 {% block page_content %}
+
    <div>
       <div id='map'></div>
       <div class='map-overlay' id='features'>
