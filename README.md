@@ -1,7 +1,7 @@
 # AOE-opioid
 20/20 Opioids. AOE Project for Columbia SEAS '21 in CS Track
 
-This project was made by the *** Aggressive Machinists ***:
+This project was made by the ***Aggressive Machinists***:
 - Maria Kogan
 - Raymond Li
 - Jason Mohabir
@@ -13,3 +13,5 @@ To run the site, make sure Flask is installed.
 	$ python app.py
     
 Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in a browser
+
+Alternatively, view the site from GitHub pages: https://jasonmohabir.github.io/AOE-opioid/
