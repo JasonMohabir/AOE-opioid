@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>20/20 Opioid</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+      <!-- Bootstrap core CSS     -->
+      <link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+
+      <!-- Animation library for notifications   -->
+      <link href="./static/css/animate.min.css" rel="stylesheet"/>
+      <!--  Paper Dashboard core CSS    -->
+
+      <link href="./static/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+      <!-- Custom styles for this template -->
+      <link href="./static/css/simple-sidebar.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="./static/css/themify-icons.css" rel="stylesheet">
+
+      <style>
+	html {
+	    min-height: 100%;
+}
+         body {
+         margin: 0;
+         padding: 0;
+		    min-height: 100%;
+         }
+         h2,
+         h3 {
+         margin: 10px;
+         font-size: 1.2em;
+         }
+         h3 {
+         font-size: 1em;
+         }
+         p {
+         font-size: 0.85em;
+         margin: 5px;
+         text-align: left;
+         }
+
+	 .footer {
+	 position: absolute;
+	 right: 0;
+	 bottom: -10px;
+	 left: 0;
+	 padding: 1rem;
+	 background-color: #efefef;
+	 text-align: right;
+}
+
+         
+         
+
+
+      </style>
+      
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+  
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+         ['Gender/Race', 'Deaths'],	
+['Female American Indian or Alaska Native',     26],	
+['Female Asian or Pacific Islander', 5],	
+['Female White',  949],	
+['Female Black or African American', 176],	
+['Male Black or African American', 424],	
+['Male American Indian or Alaska Native', 27],	
+['Male Asian or Pacific Islander', 26],	
+['Male White', 2574]	
+        ]);
+
+        var options = {
+          title: 'Mortality by Gender and Race',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+</script>
+
+   </head>
+   <body>
+      <div id="wrapper" class="toggled">
+         <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+<li class="sidebar-brand">
+                  <a href="map2014.html" style="font-size: 25px;">20/20 Opioid</a>
+               </li>
+               <li>
+                  <a href="map2014.html">2014 Opioid Map</a>
+               </li>
+
+               <li>
+                  <a href="map1999.html">1999 Opioid Map</a>
+               </li>
+               <li>
+                  <a href="totalOverdose.html">Total Drug Overdose Map</a>
+               </li>
+               <li>
+                  <a href="ethnicity.html">Ethnicity</a>
+               </li>
+               <li>
+                  <a href="age.html">Age Group</a>
+               </li>
+               <li>
+                  <a href="gender.html">Gender</a>
+               </li>
+               <li>
+                  <a href="population.html">Population Density</a>
+               </li>
+               <li>
+                  <a href="analysis.html">Analysis</a>
+               </li>            </ul>
+         </div>
+         <!-- /#sidebar-wrapper -->
+         <!-- Page Content -->
+         <div id="page-content-wrapper">
+            <div class="container-fluid">
+               <h1>20/20 Opioid</h1>
+               <p>Tracking the Opioid Crisis</p>
+
+            </div>
+            <br>
+
+
+
+</div>        
+	 
+<div>
+  <div id="piechart_3d" style="width: 900px; height: 400px;"></div>
+
+
+
+         <!-- /#page-content-wrapper -->
+
+
+      <!-- /#wrapper -->
+      <!-- Bootstrap core JavaScript -->
+      <script href="./static/css/jquery.min.js.download"></script>
+      <script href="./static/css/popper.min.js.download"></script>
+      <script href="./static/css/bootstrap.min.js.download"></script>
+
+      
+      
+   </body>
+<div class="footer"> 
+
+ <a href="/">
+                     20/20 Opioid 
+                     </a> |
+                     <a href="http://engineering.columbia.edu/">
+                     Columbia Engineering: Art of Engineering
+                     </a>
+
+| &copy; <script>document.write(new Date().getFullYear())</script>,
+  made with <i class="fa fa-heart heart"></i> by
+  <a href="https://github.com/mk4036">Maria Kogan</a>,
+  <a href="https://github.com/Ray725">Raymond Li</a>, and
+  <a href="https://github.com/JasonMohabir">Jason Mohabir        </a>
+</div>
+
+
+</div>
+
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>20/20 Opioid</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+      <!-- Bootstrap core CSS     -->
+      <link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+
+      <!-- Animation library for notifications   -->
+      <link href="./static/css/animate.min.css" rel="stylesheet"/>
+      <!--  Paper Dashboard core CSS    -->
+
+      <link href="./static/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+      <!-- Custom styles for this template -->
+      <link href="./static/css/simple-sidebar.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="./static/css/themify-icons.css" rel="stylesheet">
+
+      <style>
+	html {
+	    min-height: 100%;
+}
+         body {
+         margin: 0;
+         padding: 0;
+		    min-height: 100%;
+         }
+         h2,
+         h3 {
+         margin: 10px;
+         font-size: 1.2em;
+         }
+         h3 {
+         font-size: 1em;
+         }
+         p {
+         font-size: 0.85em;
+         margin: 5px;
+         text-align: left;
+         }
+
+	 .footer {
+	 position: absolute;
+	 right: 0;
+	 bottom: -10px;
+	 left: 0;
+	 padding: 1rem;
+	 background-color: #efefef;
+	 text-align: right;
+}
+
+         
+         
+
+
+      </style>
+      
+	 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          [	'Deaths'	,	'Population in Region'	]	,
+[	79153533	,	209	]	,
+[	11619056	,	5	]	,
+[	102260321	,	81	]	,
+[	48127139	,	5	]	,
+[	618482047	,	687	]	,
+[	81979602	,	21	]	,
+[	59851848	,	50	]	,
+[	14690493	,	49	]	,
+[	10140494	,	5	]	,
+[	307658206	,	154	]	,
+[	156794348	,	73	]	,
+[	22391828	,	15	]	,
+[	25125743	,	5	]	,
+[	215629490	,	45	]	,
+[	108039339	,	51	]	,
+[	51106031	,	13	]	,
+[	47492507	,	12	]	,
+[	72069687	,	27	]	,
+[	76816291	,	50	]	,
+[	22346589	,	5	]	,
+[	96095814	,	33	]	,
+[	110561604	,	157	]	,
+[	169247102	,	670	]	,
+[	88349625	,	30	]	,
+[	49696272	,	5	]	,
+[	99548927	,	31	]	,
+[	16350318	,	5	]	,
+[	30449576	,	5	]	,
+[	42397290	,	14	]	,
+[	22040059	,	5	]	,
+[	147786616	,	256	]	,
+[	33510363	,	17	]	,
+[	327923110	,	246	]	,
+[	153789163	,	22	]	,
+[	11394034	,	5	]	,
+[	195264291	,	211	]	,
+[	62035327	,	5	]	,
+[	63028957	,	277	]	,
+[	213336433	,	96	]	,
+[	17971898	,	11	]	,
+[	75243463	,	13	]	,
+[	13541855	,	5	]	,
+[	104293629	,	33	]	,
+[	405679137	,	187	]	,
+[	44050408	,	28	]	,
+[	10552930	,	5	]	,
+[	131420923	,	57	]	,
+[	110031696	,	158	]	,
+[	31138843	,	10	]	,
+[	9131503	,	5	]	
+        ]);
+var options = {
+          title: 'Opioid Deaths according to Population Density',
+          hAxis: {title: 'Total Population in Region', minValue: 0, maxValue: 630000000},
+          vAxis: {title: 'Opioid-Related Deaths', minValue: 0, maxValue: 700},
+          legend: 'none'
+        };
+
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+   </head>
+   <body>
+      <div id="wrapper" class="toggled">
+         <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+<li class="sidebar-brand">
+                  <a href="map2014.html" style="font-size: 25px;">20/20 Opioid</a>
+               </li>
+               <li>
+                  <a href="map2014.html">2014 Opioid Map</a>
+               </li>
+
+               <li>
+                  <a href="map1999.html">1999 Opioid Map</a>
+               </li>
+               <li>
+                  <a href="totalOverdose.html">Total Drug Overdose Map</a>
+               </li>
+               <li>
+                  <a href="ethnicity.html">Ethnicity</a>
+               </li>
+               <li>
+                  <a href="age.html">Age Group</a>
+               </li>
+               <li>
+                  <a href="gender.html">Gender</a>
+               </li>
+               <li>
+                  <a href="population.html">Population Density</a>
+               </li>
+               <li>
+                  <a href="analysis.html">Analysis</a>
+               </li>            </ul>
+         </div>
+         <!-- /#sidebar-wrapper -->
+         <!-- Page Content -->
+         <div id="page-content-wrapper">
+            <div class="container-fluid">
+               <h1>20/20 Opioid</h1>
+               <p>Tracking the Opioid Crisis</p>
+
+            </div>
+            <br>
+
+
+
+</div>        
+	 
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+
+
+         <!-- /#page-content-wrapper -->
+
+
+      <!-- /#wrapper -->
+      <!-- Bootstrap core JavaScript -->
+      <script href="./static/css/jquery.min.js.download"></script>
+      <script href="./static/css/popper.min.js.download"></script>
+      <script href="./static/css/bootstrap.min.js.download"></script>
+
+      
+      
+   </body>
+<div class="footer"> 
+
+ <a href="/">
+                     20/20 Opioid 
+                     </a> |
+                     <a href="http://engineering.columbia.edu/">
+                     Columbia Engineering: Art of Engineering
+                     </a>
+
+| &copy; <script>document.write(new Date().getFullYear())</script>,
+  made with <i class="fa fa-heart heart"></i> by
+  <a href="https://github.com/mk4036">Maria Kogan</a>,
+  <a href="https://github.com/Ray725">Raymond Li</a>, and
+  <a href="https://github.com/JasonMohabir">Jason Mohabir        </a>
+</div>
+
+
+</div>
+
+</html>
