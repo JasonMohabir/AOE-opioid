@@ -35,5 +35,5 @@ def analysis():
     return render_template("analysis.html")
 
 if __name__ == "__main__": #do not run if this file is imported as module
-    app.debug = True
+    app.debug = False
     app.run()

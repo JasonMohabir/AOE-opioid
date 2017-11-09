@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
       <title>20/20 Opioid</title>
-
+      <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
       <!-- Bootstrap core CSS     -->
       <link href="static/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -26,9 +27,13 @@
     <link href="static/css/themify-icons.css" rel="stylesheet">
 
       <style>
+	html {
+	    min-height: 100%;
+}
          body {
          margin: 0;
          padding: 0;
+		    min-height: 100%;
          }
          h2,
          h3 {
@@ -43,17 +48,20 @@
          margin: 5px;
          text-align: left;
          }
+
+	 .footer {
+	 position: absolute;
+	 right: 0;
+	 bottom: -20px;
+	 left: 0;
+	 padding: 1rem;
+	 background-color: #efefef;
+	 text-align: right;
+}
+
          {% block style %}
          {% endblock %}
 
-.footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1.25rem;
-  background-color: #efefef;
-  text-align: right;
-}
 
       </style>
       {% block head %}
@@ -93,7 +101,7 @@
                   <a href="/analysis">Analysis</a>
                </li>
             </ul>
-o         </div>
+         </div>
          <!-- /#sidebar-wrapper -->
          <!-- Page Content -->
          <div id="page-content-wrapper">
