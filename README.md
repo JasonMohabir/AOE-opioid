@@ -6,4 +6,10 @@ This project was made by:
 - Raymond Li
 - Jason Mohabir
 
-The Wonder CDC Dataset was used to visualize the Opioid epidemic from 1999-2014. 
+The Wonder CDC Dataset was used to visualize the Opioid epidemic from 1999-2014.
+
+To run the site, make sure Flask is installed.
+	$ python app.py
+    
+Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in a browser
+
