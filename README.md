@@ -1,7 +1,7 @@
 # AOE-opioid
 20/20 Opioids. AOE Project for Columbia SEAS '21 in CS Track
 
-This project was made by:
+This project was made by the *** Aggressive Machinists ***:
 - Maria Kogan
 - Raymond Li
 - Jason Mohabir
