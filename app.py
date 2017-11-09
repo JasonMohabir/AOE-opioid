@@ -4,7 +4,15 @@ app = Flask(__name__) #create Flask object
 
 @app.route("/") #assign following fxn to run in response to root route request
 def index():
-    return render_template("index2.html")
+    return render_template("map2014.html")
+
+@app.route("/1999") #assign following fxn to run in response to root route request
+def  map1999():
+    return render_template("map1999.html")
+
+@app.route("/total") #assign following fxn to run in response to root route request
+def overdoseTotal():
+    return render_template("mapOverdoseTotal.html")
 
 @app.route("/ethnicity") #assign following fxn to run in response to root route request
 def ethnicity():
