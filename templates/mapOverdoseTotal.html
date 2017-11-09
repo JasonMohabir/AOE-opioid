@@ -12,7 +12,7 @@
     #map {
       position: absolute;
       top: 0;
-      bottom: 35px;
+      bottom: 0;
       width: 100%;
     }
     /**
@@ -63,13 +63,13 @@
     <div>
           <div id='map'></div>
           <div class='map-overlay' style="height: 125px;" id='features'>
-            <h2>2014-5 Drug Overdose Deaths</h2>
+            <h2>2014 Drug Overdose Deaths</h2>
             <div id='pd'>
               <p>Hover over a state.</p>
             </div>
           </div>
           <div class='map-overlay' style="height: 175px;" id='legend'></div>
-          <script>
+{          <script>
             mapboxgl.accessToken = 'pk.eyJ1IjoicmF5NzI1IiwiYSI6ImNqOTNpeXNjYTNzemgycW1iMTVobjg1ZWoifQ._Zd7XVxCKKSBKwZt9Z2mVw';
             var map = new mapboxgl.Map({
               container: 'map', // container id
